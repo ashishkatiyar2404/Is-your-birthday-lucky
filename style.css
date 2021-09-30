@@ -1,7 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
 
+:root {
+    /* --primary-color: rgb(110, 110, 112); */
+     /* --secondary-color: #A3A3A3; */
+      /* --third-color: rgb(220, 220, 220); */
+    --primary-color:#A9E3E5;
+    --secondary-color:#212D2D;
+    --third-color:#212D2D;
+}
 body{
-    background-color: aqua;
+    background-color: rgb(25, 82, 82);
     color: aquamarine;
     font-family: 'Montserrat', sans-serif;
+   
+}
+h1{
+    text-align: center;
+}
+div{
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 10%;
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 45vh;
+    padding: 10px;
+
+}
+
+/* input,label,button{
+    display: block;
+    align-items: center;
+} */
+
+
+
+footer {
+    background-color: var(--primary-color);
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    /* padding: 5rem; */
+    color:#212D2D;
+    margin-bottom: 0px;
+    margin-top: 10%;
+}
+
+footer ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+    word-spacing: 15px;
+}
+
+footer li {
+    display: inline;
+}
+
+footer a {
+    text-decoration: none;
+    color: #212D2D;
+    font-size: medium;
+    font-weight: 900;
+}
+
+footer div {
+    text-align: right;
+    padding-right: 30px;
 }

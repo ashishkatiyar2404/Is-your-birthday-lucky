@@ -27,7 +27,7 @@ function checkBirthDateIsLucky(){
     }
    
 }
-// this will replace - from none and convert string into no. and return sum
+// this will replace - from none and convert string into no. and rI am repeating again..eturn sum
 function calculateSum(dob){
     dob = dob.replaceAll("-","");
     let sum = 0;
